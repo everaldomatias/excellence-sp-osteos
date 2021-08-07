@@ -1,0 +1,19 @@
+#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+    background-image: url('../images/agp-agencia-avatar.png') !important;
+    background-position: 0 0;
+    background-size: 100%;
+    color: transparent;
+}
+#wpadminbar #wp-admin-bar-wp-logo.hover > .ab-item .ab-icon {
+    background-position: 0 0;
+}
+.edit-post-header a.components-button.edit-post-fullscreen-mode-close,
+.edit-post-header a.components-button.edit-post-fullscreen-mode-close:hover {
+    background-image: url('../images/agp-agencia-avatar.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 85% !important;
+}
+.edit-post-header a.components-button.edit-post-fullscreen-mode-close svg {
+    display: none;
+}

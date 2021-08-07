@@ -1,0 +1,69 @@
+/* Custom Login Page */
+body.login #login {
+	padding-top: 4%;
+}
+body.login #login h1 a {
+    background-image: url( '../images/agp-agencia-logo.png' ) !important;
+    background-size: 100% !important;
+    height: 150px !important;
+    padding-bottom: 30px;
+    width: 100% !important;
+}
+body.login {
+	background-image: url( '../images/agp-agencia-backgroung-login.png' ) !important;
+	background-size: 100%;
+    background-color: #f1f1f1;
+    background-attachment: fixed;
+}
+body.login #loginform {
+    border-radius: 5px;
+}
+body.login #nav,
+body.login #backtoblog {
+    text-align: center;
+}
+body.login .help-from-agp {
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 270px;
+    padding: 24px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    line-height: 1.6em;
+    text-align: center;
+}
+body.login .help-from-agp a {
+	color: #CA151A !important;
+}
+body.login .button-primary {
+    background-color: #CA151A;
+    box-shadow: none !important;
+}
+body.login .button-primary,
+body.login .button-primary:active {
+    background-color: #CA151A !important;
+    border-color: #CA151A !important;
+    transition: all 0.2s ease-in-out;
+    box-shadow: none !important;
+}
+body.login .button-primary:hover {
+    background-color: #CA151A;
+    filter: brightness( 50% );
+}
+body.login .dashicons.dashicons-visibility::before {
+    color: #CA151A;
+}
+body.login form .input:focus {
+    border-color: #CA151A;
+    box-shadow: 0 0 0 1px #CA151A;
+}
+body.login #login_error {
+    line-height: 2;
+    text-align: center;
+}
+body.login ::selection {
+    background: #CA151A;
+    color: #FFFFFF;
+}

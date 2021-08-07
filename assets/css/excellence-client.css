@@ -1,0 +1,25 @@
+.excellence-translate {
+    position: fixed;
+    right: 0;
+    top: 110px;
+    z-index: 99;
+}
+.excellence-translate img {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    max-width: 50px;
+}
+
+.page-about-us .entry-content h1,
+.page-about-us .entry-content h2,
+.page-about-us .entry-content h3,
+.page-about-us .entry-content h4,
+.page-about-us .entry-content h5,
+.page-about-us .entry-content h6 {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
