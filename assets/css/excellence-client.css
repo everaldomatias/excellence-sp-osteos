@@ -23,3 +23,153 @@
     margin-bottom: 30px;
     margin-top: 60px;
 }
+
+/* List of the companies */
+.list-companies {
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.list-companies .item {
+    padding: 0 0 50px;
+    width: 100%;
+}
+
+.list-companies .item a {
+    height: 280px;
+    width: 100%;
+}
+
+.list-companies .item img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and ( min-width: 500px ) {
+
+    .list-companies .item {
+        float: left;
+        padding: 0 15px 30px;
+        width: 50%;
+    }
+
+}
+
+@media screen and ( min-width: 768px ) {
+
+    .list-companies .item {
+        float: left;
+        padding: 0 15px 30px;
+        width: 25%;
+    }
+
+}
+
+/** Taxonomy of the company */
+.tax-empresas .wrap .grid-container .grid-row {
+    flex-direction: column;
+}
+
+.tax-empresas > .wrap .grid-container .grid-row .about-company {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.tax-empresas > .wrap .grid-container .grid-row .list-products-company {
+    margin-bottom: 80px;
+}
+
+.tax-empresas > .wrap .grid-container .grid-row .list-products-company .item {
+    padding: 0 0 50px;
+    width: 100%;
+}
+
+.tax-empresas > .wrap .grid-container .grid-row .list-products-company .item img {
+    margin: 15px auto;
+}
+
+.tax-empresas > .wrap .grid-container .grid-row .list-products-company .item a {
+    height: 280px;
+    width: 100%;
+}
+
+@media screen and ( min-width: 500px ) {
+
+    .tax-empresas > .wrap .grid-container .grid-row .list-products-company  .item {
+        float: left;
+        padding: 0 15px 30px;
+        width: 50%;
+    }
+
+}
+
+@media screen and ( min-width: 768px ) {
+
+    .tax-empresas > .wrap .grid-container .grid-row .about-company {
+        align-items: center;
+        display: flex;
+    }
+
+    .tax-empresas > .wrap .grid-container .grid-row .about-company p {
+        padding-left: 80px;
+    }
+
+    .tax-empresas > .wrap .grid-container .grid-row .list-products-company  .item {
+        float: left;
+        padding: 0 15px 30px;
+        width: 25%;
+    }
+
+}
+
+/** Single of the products **/
+.single-produtos #site-content .grid-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*
+ * Default WP Alignment Classes
+ *****************************************************************************/
+
+ .aligncenter,.alignleft,.alignright {
+    display: block;
+    padding: 0;
+}
+
+.aligncenter {
+    float: none;
+    margin: 0 auto 1em;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.wp-caption {
+    padding: 5px 0;
+    border: 1px solid #555;
+    background: #444;
+    text-align: center;
+}
+
+.wp-caption img {
+    display: inline;
+}
+
+.wp-caption p.wp-caption-text {
+    margin: 5px 0 0;
+    padding: 0;
+    text-align: center;
+    font-size: 75%;
+    font-weight: 100;
+    font-style: italic;
+    color: #ddd;
+}

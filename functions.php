@@ -63,6 +63,11 @@ require_once SPOSTEOS . '/includes/custom-page-coverage.php';
 require_once SPOSTEOS . '/includes/custom-title.php';
 
 /**
+ * Product functions
+ */
+require_once SPOSTEOS . '/includes/functions-products.php';
+
+/**
  * Custom About Us
  */
 require_once SPOSTEOS . '/includes/custom-about-us.php';

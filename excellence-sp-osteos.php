@@ -2,12 +2,12 @@
 /**
  * Plugin Name:       Excellence SP Osteos
  * Description:       Plugin de personalizações para o site da empresa SP Osteos.
- * Plugin URI:        https://gitlab.com/agpagencia/excellence-sp-osteos
- * Version:           0.0.4
+ * Plugin URI:        https://github.com/everaldomatias/excellence-sp-osteos
+ * Version:           1.0.0
  * Author:            Everaldo Matias
  * Author URI:        https://everaldo.dev/
  * Requires at least: 3.0.0
- * Tested up to:      4.4.2
+ * Tested up to:      5.7.0
  *
  * @package ExcellenceSPOsteos
  */
