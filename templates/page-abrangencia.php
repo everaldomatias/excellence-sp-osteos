@@ -28,9 +28,11 @@ get_header(); ?>
                             echo 'Nossa Abrangência';
                         echo '</h2><!-- /.entry-title -->';
 
-                        echo '<div class="summary-hero">';
-                            echo excellence_get_excerpt( get_the_content(), 250, ' ...' );
-                        echo '</div><!-- /.summary-hero -->';
+                        if ( ! is_page() ) {
+                            echo '<div class="summary-hero">';
+                                echo excellence_get_excerpt( get_the_content(), 250, ' ...' );
+                            echo '</div><!-- /.summary-hero -->';
+                        }
 
                     echo '</div><!-- /.title-hero -->';
 
