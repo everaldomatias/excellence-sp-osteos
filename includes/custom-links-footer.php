@@ -22,7 +22,7 @@ if ( ! function_exists( 'excellence_links_footer' ) ) {
             
                 excellence_open_container();
 
-                    echo '<a href="' . esc_url( home_url( 'produtos' ) ) . '">';
+                    echo '<a href="' . esc_url( home_url( 'empresas' ) ) . '">';
                     
                         echo '<div class="col">';
                             echo '<h2>Conheça Nossos Produtos</h2>';
