@@ -28,6 +28,7 @@
 .list-companies {
     margin-bottom: 40px;
     margin-top: 70px;
+    width: 100%;
 }
 
 .list-companies .item {
